@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Fashion
+    </title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,900&display=swap"
+        rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./static/css/style.css">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/tooplate-main.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+</head>
+
+<body>
+    <div class="container-fluid" style="background-image: url(./static/images/tamara-bellis-68csPWTnafo-unsplash.jpg);">
+        <div class="nav">
+            <div class="menu" onclick="openNav()">
+                <div class="hamburger"></div>
+            </div>
+
+            <div class="cart">
+                <div class="logo">
+                    KAKON
+                </div>
+            </div>
+        </div>
+        <div id="myNav" class="nav-overlay">
+            <div class="nav-overlay-content">
+
+                <a href="about.html">About</a>
+                <a href="features.html">Features</a>
+
+            </div>
+        </div>
+        <div class="sci">
+
+            <i class='bx bxl-linkedin-alt'></i>
+
+        </div>
+        <div class="fashion">
+            FASHION
+        </div>
+        <div class="copyright">
+            Noshin Sharmila Kakon
+        </div>
+        <div class="slide-control">
+            <i class='bx bxs-right-arrow'></i>
+        </div>
+        <div class="overlay"></div>
+        <div class="col-5" style="z-index: 97;">
+            <div class="info">
+                <!-- info 1 -->
+                <div class="product-info">
+                    <h1>
+                        Party<span style="color: #e29f01;">Wear</span>
+                    </h1>
+                   
+                    <span>
+                        Collection 2021
+                    </span>
+                    <p>
+                        Inspired by Ruby gemstones I adore and the dresses that have Gemstones in them. So, I have designed
+a low backless <span id="dots">...</span><span id="more"></span>long party dress that has a few red chains with jewels
+in it. Moreover, I gave a long slit on one side of the dress and a red jewel work all over it.
+                        
+                    </span></p>
+                    <button onclick="readMore()" id="readMore">
+                        Read more!
+                    </button>
+                </div>
+                <!-- end info 1 -->
+                <!-- info 2 -->
+                <div class="product-info">
+                    <h1>
+                        <span>Casual</span> <span style="color: #e29f01;">Wear</span>
+                    </h1>
+                    
+                    <span>
+                        Collection 2022
+                    </span>
+                    <p>
+                        As a result of some latest TV shows, corset tops are now super
+                        trendy and they are my favorite for that snatched look. So, I wanted to make them
+                        look comfortable, and regular wear because corsets are pretty uncomfortable. For that, I mixed it up
+                        with puffy sleeves and buttons on the front instead of tight
+                        laces and a deep-cut V-neckline. I paired it with a loose-fitted
+                        pencil skirt
+                    </p>
+                    <button>
+                        Read more!
+                    </button>
+                </div>
+                <!-- end info 2 -->
+                <!-- info 3 -->
+                <div class="product-info">
+                    <h1>
+                        <span>Butter</span>
+                    </h1>
+                    <h1>
+                        <span style="color: #e29f01;">fly</span>
+                    </h1>
+                    <span>
+                        Collection 2022
+                    </span>
+                    <p>
+                        I was inspired by the Starry Night Cracker Butterfly. It has very
+                        sophisticated colors. I wanted to make it simple. So, I kept the
+                        body part simple but gave it a deep-cut neck with bullet-shaped
+                        breast cups. The cup has pipe-work in it. Also, a detachable puffy
+                        balloon long trains to replicate the wings. The skirt is attached to a belt.
+                    </p>
+                    <button>
+                        Read more!
+                    </button>
+                </div>
+                <!-- end info 3 -->
+                <!-- info 4 -->
+                <div class="product-info">
+                    <h1>
+                        Sports<span  style="color: #e29f01;">Wear</span>
+                    </h1>
+                   
+                    <span>
+                        Collection 2022
+                    </span>
+                    <p>
+                        Comfortable sports wear is hard to find in our country. So I
+                        designed a super stretchy legging with a v-shaped elastic-free
+                        waist to give a stylish look and jersey rib knit fabric for the meshy details. The
+                        top is also designed to provide support during workouts. I kept
+                        the strips pretty wide so it doesn't pinch our shoulders.
+                        Besides, I have designed a big oversized matching jacket with
+                        puffy sleeves for after workouts that can be worn as a casual jacket too.
+                    </p>
+                    <button>
+                        Read more!
+                    </button>
+                </div>
+                <!-- end info 4 -->
+            </div>
+        </div>
+        <div class="col-7">
+            <div class="slider">
+                <div class="slide">
+                    <div class="img-holder" style="background-image: url(assets/portfolio_img/red.jpeg);"></div>
+                </div>
+                <div class="slide">
+                    <div class="img-holder" style="background-image: url(assets/portfolio_img/green.jpeg)">
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="img-holder" style="background-image: url(assets/portfolio_img/blue.jpeg)"></div>
+                </div>
+                <div class="slide">
+                    <div class="img-holder" style="background-image: url(assets/portfolio_img/pink.jpeg)"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./static/js/main.js"></script>
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
+    <!-- Additional Scripts -->
+    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/owl.js"></script>
+</body>
+
+</html>
